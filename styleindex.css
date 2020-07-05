@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+	background-color: black;
+}
+.nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	/* opacity: .9; */
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav ul li{
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.nav ul li a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}
+.nav ul li a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px;
+	color: #8e44ad;
+}
+.nav .close:hover{
+	color: #32ff7e;
+}
+.slide a {
+	color: rgb(253, 246, 246);
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+    width: 100%;
+    background-color: black;
+}
+.bootlogo{
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: -45px;
+  }
+  .fback{
+	  background-color: black;
+	  color: white;
+  }
+  .hcen{
+	  text-align: center;
+	  margin-bottom: 50px;
+	  margin-top: 25px;
+  }
+  /* .paracol{
+	  color:  #ffff00;
+  }
+  .heacol{
+	  color: #ff3300; 
+  } */
+  .blo{
+	  margin-bottom: 10px
+  }
+  .tmar{
+	  margin-top: 20px;
+	  margin-bottom: 15px;
+  }
+  .divider1{
+	  color: white;
+	  border-style: dotted;
+  }
+  .bootindex{
+	  background-color: black;
+	  text-align: center;
+	  margin-top: 250px;
+  }
+  * {
+      background-color: black;
+  }
+  #mySearch {
+	width: 100%;
+	size: fixed;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+	color: cornsilk;
+	position: absolute;
+  }
+  
+  /* Style the navigation menu */
+  #myMenu {
+	list-style-type: none;
+	size: fixed;
+	padding: 0;
+	margin: 0;
+  }
+  
+  /* Style the navigation links */
+  #myMenu li a {
+	padding: 12px;
+	text-decoration: none;
+	/* color: black; */
+	display: block
+  }
+  
+  #myMenu li a:hover {
+	background-color: #32ff7e;
+  }
